@@ -1,0 +1,80 @@
+/* Customize the contact section styling */
+.contact {
+    background-color: #333;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .contact-description {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #ffd700;
+    outline: none;
+  }
+  
+  .submit-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ffd700;
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #333;
+    color: #ffd700;
+  }
+  
+  .section-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: black;
+    transition: color 0.3s ease; /* Hover effect on the section heading color */
+  }
+  
+  .section-heading:hover {
+    color: #ffd700;
+  }

@@ -1,0 +1,77 @@
+/* Add styles for the features section */
+.features {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  /* Style for each feature item */
+  .feature-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .feature-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Style for feature images */
+  .feature-icon {
+    width: 100px; /* Adjust the size of the images */
+    height: auto;
+    position: absolute;
+    top: -30px; /* Adjust the vertical position */
+    left: 50%;
+    transform: translateX(-50%);
+    animation: float 3s infinite ease-in-out;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  /* Style for feature titles */
+  .feature-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Style for feature descriptions */
+  .feature-description {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Interactive hover effect on feature titles */
+  .feature-title:hover {
+    color: #ffd700;
+  }
+  
+  /* Style for section headings */
+.section-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+  transition: color 0.3s ease; /* Hover effect on the section heading color */
+}
+
+.section-heading:hover {
+  color: #ffd700;
+}
+

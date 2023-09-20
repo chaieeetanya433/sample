@@ -1,0 +1,70 @@
+/* BusinessModel.css */
+
+/* Style for the entire business model section */
+.business-model {
+    background-color: #f7f7f7;
+    padding: 30px;
+  }
+  
+  /* Style for the section heading */
+  .business-model .section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style for each individual model item */
+  .business-model .model-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for model item headings */
+  .business-model .model-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for model item content */
+  .business-model .model-item p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  /* Center-align the content for better readability */
+  .business-model .model-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Media query for responsive design */
+  @media (max-width: 768px) {
+    /* Adjust the styling for smaller screens */
+    .business-model .model-item {
+      width: 100%;
+    }
+  }
+
+  .section-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: black;
+    transition: color 0.3s ease; /* Hover effect on the section heading color */
+  }
+  
+  .section-heading:hover {
+    color: #ffd700;
+  }
+  

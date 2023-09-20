@@ -1,0 +1,72 @@
+/* Customize the FAQ section styling */
+.faqs {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .faqs h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .faq-item {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .faq-item:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .faq-question {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .arrow {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #333;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%) rotate(0deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-answer {
+    font-size: 18px;
+    line-height: 1.5;
+    display: none;
+  }
+  
+  .faq-item.open .arrow {
+    transform: translateY(-50%) rotate(180deg);
+  }
+  
+  .faq-item.open .faq-answer {
+    display: block;
+  }
+  .section-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: black;
+    transition: color 0.3s ease; /* Hover effect on the section heading color */
+  }
+  
+  .section-heading:hover {
+    color: #ffd700;
+  }
+  
