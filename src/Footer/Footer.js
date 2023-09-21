@@ -1,13 +1,14 @@
 import React from 'react';
 import { AiOutlineInstagram, AiOutlineLinkedin, AiFillTwitterSquare, AiOutlineFacebook } from "react-icons/ai";
 import './Footer.css';
+import logo from "../assets/WhatsApp Image 2023-09-21 at 10.15.44.jpg";
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-logo">
-          <img src="your-logo.png" alt="Your Logo" />
+          <img src={logo} alt="Your Logo" style={logoStyle}/>
         </div>
         <div className="footer-links">
           <ul>
@@ -26,10 +27,17 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Your Company Name. All Rights Reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Career Udaan. All Rights Reserved.</p>
       </div>
     </footer>
   );
 }
+
+const logoStyle = {
+  width: '100px', // Adjust the width as needed
+  height: 'auto', // Maintain aspect ratio
+  borderRadius: '50%',
+};
+
 
 export default Footer;

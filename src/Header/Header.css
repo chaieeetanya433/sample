@@ -30,4 +30,13 @@
   .menu li:hover {
     color: #ffd700; /* Change the color on hover */
   }
+
+  .tagline {
+    font-size: 10px; /* Adjust the font size as needed */
+    font-weight: bold; /* Add font-weight if desired */
+    margin-top: 10px; /* Adjust the margin spacing as needed */
+    color: #fff; /* Set the text color */
+    /* Add other styling properties as needed */
+    font-family: cursive;
+  }
   

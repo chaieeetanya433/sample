@@ -2,10 +2,11 @@ import React from 'react';
 import './Features.css';
 
 import icon1 from '../assets/—Pngtree—career_3634495.png';
-import icon2 from '../assets/Labor-market-analysis.webp';
-import icon3 from '../assets/Evaluating-Candidates-Through-Skills-Assessment-thumb-1.png';
-import icon4 from '../assets/pngtree-social-network-png-image_5413579.jpg';
+import icon2 from '../assets/what-if-scenario.png';
+import icon3 from '../assets/pngtree-hand-drawn-creative-world-mental-health-day-kids-png-image_5506168.jpg';
 import icon5 from '../assets/pngtree-counseling-on-mental-health-problems-and-flat-illustration-problems-png-image_6855458.png'
+import icon4 from '../assets/Goal_setting_software.webp';
+import icon6 from '../assets/download-1-1.webp';
 
 function Features() {
   return (
@@ -20,16 +21,16 @@ function Features() {
       </div>
       <div className="feature-item">
         <img src={icon2} alt="Feature Icon 2" className="feature-icon" />
-        <h3 className="feature-title">Real-time Job Market Insights</h3>
+        <h3 className="feature-title">"What If" Scenario Generator</h3>
         <p className="feature-description">
-          Stay updated with the latest job market trends, salary expectations, and skill demands.
+        Allow students to explore alternative career paths with a "What If" scenario generator that shows them where different choices could lead.
         </p>
       </div>
       <div className="feature-item">
         <img src={icon3} alt="Feature Icon 3" className="feature-icon" />
-        <h3 className="feature-title">Skill Assessment and Development</h3>
+        <h3 className="feature-title">Emotional Support and Well-being Resources</h3>
         <p className="feature-description">
-          Assess your skills and get personalized plans to enhance your capabilities for your chosen career path.
+        Offering resources for managing stress, anxiety, and mental well-being during the career decision-making process.
         </p>
       </div>
       <div className="feature-item">
@@ -41,9 +42,16 @@ function Features() {
       </div>
       <div className="feature-item">
         <img src={icon4} alt="Feature Icon 4" className="feature-icon" />
-        <h3 className="feature-title">Networking Opportunities</h3>
+        <h3 className="feature-title">Goal Setting and Tracking</h3>
         <p className="feature-description">
-          Connect with professionals and mentors in your desired industry to gain valuable insights and guidance.
+        Allowing students to set and track short-term and long-term career goals, with reminders and progress tracking features.
+        </p>
+      </div>
+      <div className="feature-item">
+        <img src={icon6} alt="Feature Icon 4" className="feature-icon" />
+        <h3 className="feature-title">Global Scholarships and tie ups</h3>
+        <p className="feature-description">
+        opens up opportunities for students to access international education and financial aid
         </p>
       </div>
     </section>
